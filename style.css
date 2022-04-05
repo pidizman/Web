@@ -1,0 +1,148 @@
+:root{
+  --primary: rgb(210,61,58);
+  --secondary: rgb(18,17,27);
+  --nav-color: rgba(8,10,11,0.5);
+  --b-color: rgb(20,22,36);
+  --txt-color: white;
+}
+
+.light-theme{
+  --primary: rgb(210,61,58);
+  --secondary: rgb(250,241,240);
+  --nav-color: rgba(256,244,244,0.5);
+  --b-color: rgb(252,253,253);
+  --txt-color: black;
+}
+
+body{
+  background-color: var(--primary);
+  font: 1.2em sans-serif;
+  margin: 0;
+  color: var(--txt-color);
+}
+
+.nav-bar{
+  width: 100%;
+  height: 3.65rem;
+  /*border-radius: 0.4rem;*/
+
+  background-color: var(--nav-color);
+  
+  border: none;
+  border-radius: 0.4rem;
+  display: flex;
+  position: fixed;
+}
+
+.logo-img{
+  width: 4rem;
+  height: 4rem;
+  margin-left: 0.3rem;
+}
+
+.menuBtn{
+  position: relative;
+  top: 0.2rem;
+  float: right;
+  margin-left: auto; 
+  margin-right: 0;
+
+  border: none;
+  background-color: transparent;
+  }
+
+.openNav {
+  /*float: right;*/
+  position: relative;
+  align-items: right;
+  width: 4rem;
+  height: 3.5rem;
+  border: none;
+
+  color: black;
+  background-color: transparent;
+}
+
+.line1, .line2, .line3{
+  background-color: var(--red);
+  
+  width: 1.7rem;
+  height: 0.2rem;
+  margin: 3px;
+  border: none;
+}
+
+.app{
+  height: 100%;
+
+  background-color: var(--secondary);
+}
+
+.start{
+  background-color: var(--b-color);
+
+  height: 30rem;
+}
+
+.s-txt{
+  padding: 200px 0;
+  text-align: center;
+}
+
+.o-mne{
+  padding: 1rem;
+  padding-top: 0.5rem;
+}
+
+.me-prace{
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.mr-thor{
+  margin: 0.5rem;
+  background-color: var(--b-color);
+  border-radius: 0.3em;
+  padding: 1rem;
+  
+  width: 20.5rem;
+  height: 25rem;
+}
+
+.login-sys{
+  margin: 0.5rem;
+  background-color: var(--b-color);
+  border-radius: 0.3em;
+  padding: 1rem;
+  
+  
+  width: 20.5rem;
+  height: 35rem;
+}
+
+@media only screen and 
+  (orientation: landscape) { 
+  .prace{
+    display: flex;
+    padding-top: 1rem;
+  }
+}
+
+.nabidka{
+  background-color: var(--b-color);
+  text-align: center;
+  margin: 0.5rem;
+  border-radius: 0.3em;
+  height: 21rem;
+}
+
+footer{
+  height: 8rem;
+}
+
+.social{
+  text-decoration: none;
+  color: var(--primary);
+  text-align: center;
+  font-size: 1.5rem;
+}

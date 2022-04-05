@@ -1,0 +1,177 @@
+:root{
+  --primary: rgb(210,61,58);
+  --secondary: rgb(18,17,27);
+  --nav-color: rgba(8,10,11,0.5);
+  --b-color: rgb(20,22,36);
+  --txt-color: white;
+}
+
+.light-theme{
+  --primary: rgb(210,61,58);
+  --secondary: rgb(250,241,240);
+  --nav-color: rgba(256,244,244,0.5);
+  --b-color: rgb(252,253,253);
+  --txt-color: black;
+}
+
+body{
+  background-color: var(--primary);
+  font: 1.2em sans-serif;
+  margin: 0;
+  color: var(--txt-color);
+}
+
+.nav-bar{
+  width: 100%;
+  height: 3.65rem;
+  /*border-radius: 0.4rem;*/
+
+  background-color: var(--nav-color);
+  
+  border: none;
+  border-radius: 0.4rem;
+  display: flex;
+  position: fixed;
+}
+
+.logo-img{
+  width: 4rem;
+  height: 4rem;
+  margin-left: 0.3rem;
+}
+
+.menuBtn{
+  position: relative;
+  top: 0.2rem;
+  float: right;
+  margin-left: auto; 
+  margin-right: 0;
+
+  border: none;
+  background-color: transparent;
+  }
+
+.openNav {
+  /*float: right;*/
+  position: relative;
+  align-items: right;
+  width: 4rem;
+  height: 3.5rem;
+  border: none;
+
+  color: black;
+  background-color: transparent;
+}
+
+.line1, .line2, .line3{
+  background-color: var(--red);
+  
+  width: 1.7rem;
+  height: 0.2rem;
+  margin: 3px;
+  border: none;
+}
+
+.app{
+  height: 100%;
+
+  background-color: var(--secondary);
+}
+
+.start{
+  background-color: var(--b-color);
+
+  height: 30rem;
+}
+
+.s-txt{
+  padding: 200px 0;
+  text-align: center;
+}
+
+footer{
+  height: 5rem;
+}
+
+.social{
+  text-decoration: none;
+  color: var(--primary);
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.kontakty{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.discordIcon{
+  text-align: left;
+  padding-top: 0.7rem;
+  padding-left: 0.4rem;
+  font-size: 2.5rem;
+}
+
+.txtD{
+  /*border: 1px solid white;*/
+  float: right;
+  text-align: center;
+  padding-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.discord{
+  height: 4.2rem;
+  width: 11rem;
+
+  margin: auto;
+  border-radius: 0.4rem;
+  /*border: 1px solid white;*/
+  display: flex;
+  color: white;
+  
+  background-color: var(--primary);
+}
+
+.mailIcon{
+  text-align: left;
+  padding-top: 0.7rem;
+  padding-left: 0.4rem;
+  font-size: 2.5rem;
+}
+
+.txtM{
+  /*border: 1px solid white;*/
+  float: right;
+  text-align: center;
+  padding-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.mail{
+  height: 4.2rem;
+  width: 12.8rem;
+
+  margin: auto;
+  margin-bottom: 1rem;
+  border-radius: 0.4rem;
+  /*border: 1px solid white;*/
+  display: flex;
+  color: white;
+  
+  background-color: var(--primary);
+}
+
+.igTw{
+  text-align: center;
+}
+
+.instagram{
+  /*padding-left: 3rem;*/
+  font-size: 1.5rem;
+}
+
+.twitter{
+  padding-left: 4.5rem;
+  font-size: 1.5rem;
+}
